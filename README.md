@@ -1,5 +1,8 @@
 # Overview
-- If the service is disabled / re-enabled you will need to update certain files
+- This project is primarily for my own use, and steps below are to remind me of things in future
+- As unauthenticated invokations was enabled to test this project, it has been disabled now
+  - To test this project appropriately authorisation will need to be altered in Google Cloud Run console
+- If the service is redeployed you will need to update certain files
     - This README.md URLs
     - URL in index.html `<input type="text" id="externalURL" name="externalURL" value="HERE" style="width: 400px;">`
 - You can test the site on your local machine by opening the `index.html` file in a web browser
