@@ -1,0 +1,6 @@
+flask-app/venv/
+flask-app/__pycache__/
+flask-app/*.pyc
+flask-app/*.pyd
+flask-app/*.pyo
+flask-app/.pytest_cache/

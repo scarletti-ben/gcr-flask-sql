@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>GitHub Pages Site</title>
+
+  </head>
+
+  <body>
+
+    <div>
+
+      <label for="textbox">Local Connection URL</label>
+      <input type="text" id="localURL" name="localURL" value="http://127.0.0.1:5000" style="width: 400px;">
+      <button onclick="getUsers(document.getElementById('localURL').value)">Get Users</button>
+
+    </div>
+
+    <div>
+
+      <label for="textbox">External Connection URL</label>
+      <input type="text" id="externalURL" name="externalURL" value="https://testin-941950155724.europe-west1.run.app" style="width: 400px;">
+      <button onclick="getUsers(document.getElementById('externalURL').value)">Get Users</button>
+      
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>
