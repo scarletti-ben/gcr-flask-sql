@@ -1,4 +1,7 @@
 # Overview
+- If the service is disabled / re-enabled you will need to update certain files
+    - This README.md URLs
+    - URL in index.html `<input type="text" id="externalURL" name="externalURL" value="HERE" style="width: 400px;">`
 - You can test the site on your local machine by opening the `index.html` file in a web browser
 - You can test the static site which is hosted on GitHub pages [here](https://scarletti-ben.github.io/gcr-flask-sql)
 - The `index.html` file can alternatively be previewed [here](https://html-preview.github.io/?url=https://github.com/scarletti-ben/gcr-flask-sql/blob/main/docs/index.html)
